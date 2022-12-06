@@ -6,7 +6,7 @@ definePageMeta({
 <template>
 	<div>
 		<div class="bg-primary px-5 py-16">
-			<h2 class="text-white text-4xl font-semibold">About shabeer Us</h2>
+			<h2 class="text-white text-4xl font-semibold">About lee gene it ok yea its ok its okk  Us</h2>
 			<p class="text-white text-md mt-2 break-words">Here is a little bit about ourselves</p>
 		</div>
 
