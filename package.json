@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/google-fonts": "^2.0.0",
+    "@nuxtjs/supabase": "^0.2.2",
+    "@nuxtjs/tailwindcss": "^6.1.2",
+    "@vueuse/core": "^9.4.0",
+    "@vueuse/nuxt": "^9.4.0",
+    "nuxt": "3.0.0-rc.12"
+  },
+  "dependencies": {
+    "@capacitor/android": "^4.4.0",
+    "@capacitor/cli": "^4.4.0",
+    "@capacitor/core": "^4.4.0",
+    "@capacitor/ios": "^4.4.0",
+    "@kyvg/vue3-notification": "^2.6.1",
+    "@mapbox/mapbox-gl-geocoder": "^5.0.1",
+    "@nuxtjs/color-mode": "^3.1.8",
+    "@studiometa/vue-mapbox-gl": "^2.0.1",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.7",
+    "@vueuse/components": "^9.6.0",
+    "fuse.js": "^6.6.2",
+    "mapbox-gl": "^2.11.0",
+    "moment": "^2.29.4",
+    "tailwind-scrollbar-hide": "^1.1.7"
+  }
+}
