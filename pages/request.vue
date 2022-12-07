@@ -84,7 +84,7 @@ onMounted(async () => {
 	<div>
 		<div class="bg-primary px-5 py-16">
 			<h2 class="text-white text-4xl font-semibold">Add Food Donation: {{ state.form?.name }}</h2>
-			<p class="text-white text-md mt-2">Information about the donations</p>
+			<p class="text-white text-md mt-2">Please fill the details with valid information. Make sure to put the correct details (Phone number) for Pick Up Instructions and correct information.</p>
 		</div>
 
 		<section class="bg-white rounded-t-lg -my-5 pb-32">
@@ -122,14 +122,14 @@ onMounted(async () => {
 					<div>
 						<label class="block text-sm mb-2" for="pick_up_instruction">Pick Up Instructions</label>
 						<div class="relative">
-							<input class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" placeholder="Pick Up Instructions" required type="text" v-model="state.form.pick_up_instructions" />
+							<input class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" placeholder="Pick Up Instructions (Contact Details for Delivery Arrangement)" required type="text" v-model="state.form.pick_up_instructions" />
 						</div>
 					</div>
 
 					<div>
-						<label class="block text-sm mb-2" for="expiry_till_date">Expiry Till Date</label>
+						<label class="block text-sm mb-2" for="expiry_till_date">Estimated Expiry Date</label>
 						<div class="relative">
-							<input class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" placeholder="Expiry Till Date" required type="datetime-local" v-model="state.form.expiry_till_date" />
+							<input class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" placeholder="Estimated Expiry Date" required type="datetime-local" v-model="state.form.expiry_till_date" />
 						</div>
 					</div>
 

@@ -5,13 +5,13 @@ definePageMeta({
 </script>
 <template>
 	<div>
-		<div class="bg-primary px-5 py-16">
-			<h2 class="text-white text-4xl font-semibold">About lee gene it ok yea its ok its okk  Us</h2>
-			<p class="text-white text-md mt-2 break-words">Here is a little bit about ourselves</p>
-		</div>
-
-		<div class="bg-primary px-5 py-16">
-			<img src="/meally-logo.png" alt="logo">
+		
+		<div class="bg-primary px-5 py-7">
+			<h2 class="text-white text-4xl font-semibold">About Us</h2>
+			<p class="text-white text-md mt-2 break-words">Our Goals, Mission, Policy and Contact Details</p>
+				<span class="logo" style="display: grid;justify-content: left;">
+			<img src="/meally.png" alt="logo">
+		</span>	
 		</div>
 
 		<div class="bg-white rounded-t-lg -my-4 pb-32">
@@ -38,18 +38,18 @@ definePageMeta({
 									<div class="absolute inset-0 bg-gradient-to-t from-green-600 via-gray-600 opacity-90"></div>
 									<div class="relative px-8">
 										<div>
-											<img alt="Workcation" class="h-16" src="/icon.png" />
+											<img alt="Workcation" class="h-16" src="/meally.png" />
 										</div>
 										<blockquote class="mt-8">
 											<div class="relative text-lg font-medium text-white md:flex-grow">
 												<svg aria-hidden="true" class="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-indigo-400" fill="currentColor" viewBox="0 0 32 32">
 													<path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
 												</svg>
-												<p class="relative">Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam. Montes, magna cursus nulla feugiat dignissim id lobortis amet.</p>
+												<p class="relative">We all love Malaysia, it is a great country, but we have a problem - Food Wastage. Our food wastage rates are going higher every year. Through Meally app, one of our goals is to give all of us an oppurtinity to fight back against food wastage with the help of food donations.</p>
 											</div>
 
 											<footer class="mt-4">
-												<p class="text-base font-semibold text-white">Shabeer, CEO at Meally</p>
+												<p class="text-base font-semibold text-white">Mohamed Gene, CEO at Meally</p>
 											</footer>
 										</blockquote>
 									</div>
@@ -60,26 +60,50 @@ definePageMeta({
 						<div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
 							<!-- Content area -->
 							<div class="pt-12 sm:pt-16 lg:pt-20">
-								<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">On a mission to empower poor dudes like Shabeer</h2>
+								<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">On a mission to to lessen food wastage in Malaysia</h2>
 								<div class="mt-6 space-y-6 text-gray-500">
-									<p class="text-lg">Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae.</p>
-									<p class="text-base leading-7">Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.</p>
-									<p class="text-base leading-7">Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.</p>
+									<p class="text-lg">The food wastage rates are increasing every year here in Malaysia. Therefore, our mission is to lessen or put an end to the food wastage problem in Malaysia through easy, convenient and reliable food donations with the use of Meally app.</p>
+									<p class="text-base leading-7">We can all agree that food is one of the few things in life that bring people together no matter the situation. There are people who are in need of food as well due to their living situation. That's why through this project we have the potential to provide a way to help people in need and bring more communities together with the help of food donation.</p>
+									<p class="text-base leading-7">Together we stand, divided we fall. We believe, we are all in this together to help Malaysia as a country, to lessen food wastage. Our goal is to expand our services and go beyond the expectations. This will be a tough challenge, but nothing is impossible and we will be giving our best.</p>
 								</div>
+								<br>
+								<br>
+
+							<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Policy</h2>
+							<br>
+									<p class="text-lg"> ➣ All the food which are put up for donation is free of charge to book.</p>
+							<br>
+									<p class="text-lg"> ➣ Make sure to put up the contact details when creating a donation.</p>
+							<br>
+									<p class="text-lg"> ➣ The users who want to book food can contact the donator via text or call and make arranegements for the delivery. </p>
+							<br>
+									<p class="text-lg"> ➣ It is the donator's responsibility to make sure the food gets delivered in time.</p>
+							<br>
+									<p class="text-lg"> ➣ It is the donator's responsibility to put valid information when creating a donation.</p>
+							<br>
+									<p class="text-lg"> ➣ Users should put valid names and personal details when signing up for the app.</p>
+							<br>
+									<p class="text-lg"> ➣ We assure you that the data we gather through the app will be processed according to the Law and we will not be mis-using it.</p>
+							<br>
+									<p class="text-lg"> ➣ Our priority is to help you get good food and to lessen the food wastage. We will make sure to fullfil in everyway.</p>
+
 							</div>
+
 						</div>
 					</div>
 				</div>
 			</section>
 
 			<section class="bg-white px-8">
+				<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contact Details</h2>
+
 				<div class="bg-white">
 					<div class="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
 						<div class="mx-auto max-w-lg md:grid md:max-w-none md:grid-cols-2 md:gap-8">
 							<div>
-								<h2 class="text-2xl font-bold text-gray-900 sm:text-3xl sm:tracking-tight">Sales Support</h2>
+								<h2 class="text-2xl font-bold text-gray-900 sm:text-3xl sm:tracking-tight">Enquiries</h2>
 								<div class="mt-3">
-									<p class="text-lg text-gray-500">Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.</p>
+									<p class="text-lg text-gray-500">If you have certain questions regarding the donations, booking, or any other related matters please contact the following.</p>
 								</div>
 								<div class="mt-9">
 									<div class="flex">
@@ -90,8 +114,8 @@ definePageMeta({
 											</svg>
 										</div>
 										<div class="ml-3 text-base text-gray-500">
-											<p>+1 (555) 123 4567</p>
-											<p class="mt-1">Mon-Fri 8am to 6pm PST</p>
+											<a href="tel:+9607832330">+60 1133778811</a>
+											<p class="mt-1">Mon-Fri 8am to 8pm</p>
 										</div>
 									</div>
 									<div class="mt-6 flex">
@@ -102,7 +126,7 @@ definePageMeta({
 											</svg>
 										</div>
 										<div class="ml-3 text-base text-gray-500">
-											<p>support@example.com</p>
+											<a href = "mailto: dummyemail@gmail.com">enquiries@meally.com</a> 									
 										</div>
 									</div>
 								</div>
@@ -110,7 +134,7 @@ definePageMeta({
 							<div class="mt-12 sm:mt-16 md:mt-0">
 								<h2 class="text-2xl font-bold text-gray-900 sm:text-3xl sm:tracking-tight">Technical Support</h2>
 								<div class="mt-3">
-									<p class="text-lg text-gray-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, repellat error corporis doloribus similique, voluptatibus numquam quam, quae officiis facilis.</p>
+									<p class="text-lg text-gray-500">If you need any support regarding technical matters, please do not hesitate to contact the following.</p>
 								</div>
 								<div class="mt-9">
 									<div class="flex">
@@ -121,8 +145,8 @@ definePageMeta({
 											</svg>
 										</div>
 										<div class="ml-3 text-base text-gray-500">
-											<p>+1 (555) 123 4567</p>
-											<p class="mt-1">Mon-Fri 8am to 6pm PST</p>
+											<a href="tel:+9607832330">+60 1133778822</a>
+											<p class="mt-1">Mon-Fri 8am to 8pm</p>
 										</div>
 									</div>
 									<div class="mt-6 flex">
@@ -133,7 +157,7 @@ definePageMeta({
 											</svg>
 										</div>
 										<div class="ml-3 text-base text-gray-500">
-											<p>support@example.com</p>
+											<a href = "mailto: dummyemail@gmail.com">support@meally.com</a> 									
 										</div>
 									</div>
 								</div>

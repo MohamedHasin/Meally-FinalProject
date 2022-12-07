@@ -139,7 +139,7 @@ onBeforeMount(() => {
 		<div class="absolute top-0 right-0 mr-3 mt-3 space-x-2">
 			<div class="inline-flex items-center gap-3">
 				<NuxtLink :to="`/donation/` + donation.id " class="group" v-if="props.donation.user_id === user.id">
-					<svg class="text-yellow-400 w-6 h-6 group-hover:scale-125 transform transition duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+					<svg class="text-yellow-400 w-6 h-6 group-hover:scale-125 transform transition duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" >
 						<path d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
 					</svg>
 				</NuxtLink>
@@ -197,6 +197,10 @@ onBeforeMount(() => {
 			</div>
 		</div>
 
+		<strong class="logo" style="display: grid;
+  justify-content: center;">
+			<img src="/meally.png" alt="logo">
+		</strong>
 		<div class="flex justify-end" v-if="donation.user_id === user.id">
 			<strong class="-mr-[2px] -mb-[2px] inline-flex items-center gap-1 rounded-tl-xl rounded-br-xl bg-primary py-1.5 px-3 text-white">
 				<svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -206,7 +210,6 @@ onBeforeMount(() => {
 				<span class="text-[10px] font-medium sm:text-xs">Mine</span>
 			</strong>
 		</div>
-
 		<div class="p-3" v-if="donation.user_id !== user.id && donationStatus === 'available'">
 			<button @click="showBookingConfirmation(donation)" class="inline-flex items-center rounded-md border border-transparent bg-primary px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2" type="button">
 				<svg class="-ml-1 mr-2 h-5 w-5" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

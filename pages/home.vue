@@ -92,7 +92,8 @@ onMounted(() => {
 });
 </script>
 <template>
-	<div>
+
+  <div>
 		<div class="bg-primary px-5 py-16">
 			<NuxtLink to="/my-account">
 				<svg class="absolute top-0 right-0 text-white mr-3 mt-3 w-8 h-8 group-hover:scale-125 transform transition duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -125,7 +126,7 @@ onMounted(() => {
 				<p class="text-white text-left font-semibold text-xl">You've requested to deliver {{ state.donation_count }} meals worth of food last month.</p>
 			</div>
 
-			<div class="mt-5">
+			<div class="mt-2">
 				<span class="text-gray-500 font-normal text-xs">Advertisement</span>
 				<img class="rounded-lg" src="/ads/1.jpg" width="970" />
 			</div>

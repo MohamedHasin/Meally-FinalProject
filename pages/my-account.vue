@@ -110,9 +110,12 @@ onMounted(() => {
 </script>
 <template>
 	<div>
-		<div class="bg-primary px-5 py-16">
+		<div class="bg-primary px-5 py-7">
 			<h2 class="text-white text-4xl font-semibold">My Account</h2>
-			<p class="text-white text-md mt-2 break-words">Common settings in our app.</p>
+			<p class="text-white text-md mt-2 break-words">Top Contributors, Settings, Log Out.</p>
+			<span class="logo" style="display: grid;justify-content: left;">
+			<img src="/meally.png" alt="logo">
+			</span>
 		</div>
 
 		<section class="bg-white rounded-t-lg -my-2 p-8 space-y-8">

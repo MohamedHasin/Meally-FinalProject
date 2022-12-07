@@ -16,7 +16,7 @@ function donate() {
   } else {
     notify({
       title: "Success",
-      text: `Thank you for donating Us ${amount.value} RM !`,
+      text: `Thank you for donating ${amount.value} RM !`,
       type: "success",
     });
   }
@@ -24,10 +24,12 @@ function donate() {
 </script>
 <template>
 	<div>
-		<div class="bg-primary px-5 py-16">
-			<h2 class="text-white text-4xl font-semibold">Donate To Us</h2>
+		<div class="bg-primary px-5 py-7">
+			<h2 class="text-white text-4xl font-semibold">Donate Us</h2>
 			<p class="text-white text-md mt-2 break-words">To continue our effort with this project you can help us by donating to us.</p>
-
+				<span class="logo" style="display: grid;justify-content: left;">
+			<img src="/meally.png" alt="logo">
+		</span>	
 			<div class="mt-5">
 				<span class="text-gray-500 font-normal text-xs">Advertisement</span>
 				<img class="rounded-lg" src="/ads/3.gif" width="970" />
@@ -35,6 +37,25 @@ function donate() {
 		</div>
 
 		<section class="bg-white rounded-t-lg -my-2 p-4 sm:p-7">
+					<div class="howithelps">
+						<br>
+			<h1 style="font-size:30px;text-align:center;font-family: Gill Sans, sans-serif;font-style:bold; font-weight:700; color:#26b578">How Your Donations Help Us</h1>
+			<br>
+			<h2 style="font-family: sans-serif;font-weight:300"> • We care about the people and about the country. As such, one of our main objectives is to lessen or put an end to the food wastage problem in Malaysia via food donations. Your bountiful donations will assist in this huge cause.</h2>
+			<br>
+			<h2 style="font-family: sans-serif;font-weight:300"> • As all the food donations done through the appcost ZERO money from you, we do not generate any primary income through the app. Hence, your generous donations will help to continue the fight against food wastage in Malaysia.</h2>
+			<br>
+			<h2 style="font-family: sans-serif;font-weight:300"> • Our goal is to expand this project even further and reach all of Malaysia withing the next few years. It will be a massive help if you donate to us in order to make Malaysia a better place with less food wastage with the help of donations. </h2>
+			<br>
+			<h1 style="font-size:30px;text-align:center;font-family: Gill Sans, sans-serif;font-style:bold; font-weight:700; color:#26b578">How To Donate</h1>
+			<br>
+			<h2 style="font-family: sans-serif;font-weight:300"> • You can put in any value you would like to donate below and click "Donate Us" button at the bottom. </h2>
+			<br>
+			<h2 style="font-family: sans-serif;font-weight:300"> • We assure you that the money you donate will be put to good use in order to fight the good fight against food wastage in Malaysia. </h2>
+			<br>
+			<h2 style="font-family: sans-serif;font-weight:300"> • You can put in any value you would like to donate below and click "Donate Us" button at the bottom. </h2>
+
+		</div>
 			<div class="group flex flex-col justify-between rounded-lg bg-white p-8 shadow-xl transition-shadow hover:shadow-lg border my-24">
 				<div>
 					<div class="inline-flex items-center gap-2 w-full">
