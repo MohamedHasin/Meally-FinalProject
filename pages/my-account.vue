@@ -110,12 +110,13 @@ onMounted(() => {
 </script>
 <template>
 	<div>
+		
 		<div class="bg-primary px-5 py-7">
+			<span class="logo" style="display: grid;justify-content: right;">
+			<img src="/logo_b_4.png" alt="logo" style="margin-left:405px; margin-bottom:0px; margin-top:-20px; height: 70px; width: 70px;">
+			</span>
 			<h2 class="text-white text-4xl font-semibold">My Account</h2>
 			<p class="text-white text-md mt-2 break-words">Top Contributors, Settings, Log Out.</p>
-			<span class="logo" style="display: grid;justify-content: left;">
-			<img src="/meally.png" alt="logo">
-			</span>
 		</div>
 
 		<section class="bg-white rounded-t-lg -my-2 p-8 space-y-8">
@@ -137,32 +138,32 @@ onMounted(() => {
 
 					<h3 class="text-sm font-semibold text-gray-700">My Current Location</h3>
 					<UseGeolocation v-slot="{ coords: { latitude, longitude } }">
-						<div class="mt-2 space-y-3">
+						<form @submit.prevent="createLocation" class="mt-2 space-y-3">
 							<div>
 								<label class="block text-sm mb-2" for="address">Address</label>
 								<div class="relative">
-									<input class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" placeholder="Address" v-model="state.address" />
+									<input required class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" placeholder="Address" v-model="state.address" />
 								</div>
 							</div>
 
 							<div>
 								<label class="block text-sm mb-2" for="city">City</label>
 								<div class="relative">
-									<input class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" placeholder="City" v-model="state.city" />
+									<input required class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" placeholder="City" v-model="state.city" />
 								</div>
 							</div>
 
 							<div>
 								<label class="block text-sm mb-2" for="state">State</label>
 								<div class="relative">
-									<input class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" placeholder="State" v-model="state.state" />
+									<input required class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" placeholder="State" v-model="state.state" />
 								</div>
 							</div>
 
 							<div>
 								<label class="block text-sm mb-2" for="zip_code">Zip Code</label>
 								<div class="relative">
-									<input class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" placeholder="Zip Code" v-model="state.zip_code" />
+									<input required class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" placeholder="Zip Code" v-model="state.zip_code" />
 								</div>
 							</div>
 							<div>
@@ -178,8 +179,7 @@ onMounted(() => {
 									<input :value="latitude" @input="state.lat = $event.target.value" class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" placeholder="Latitude" />
 								</div>
 							</div>
-						</div>
-					</UseGeolocation>
+
 
 					<div class="space-x-2">
 						<button @click="state.add_new_address = false" class="inline-flex items-center rounded-md border border-transparent bg-gray-400 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2" type="button">
@@ -188,7 +188,7 @@ onMounted(() => {
 							</svg>
 							back To My Locations List
 						</button>
-						<button @click="createLocation" class="inline-flex items-center rounded-md border border-transparent bg-primary px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2" type="button">
+						<button type="submit" class="inline-flex items-center rounded-md border border-transparent bg-primary px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2">
 							<svg class="-ml-0.5 mr-2 h-4 w-4" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 								<path d="M6.75 19.25H17.25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
 								<path d="M12 15.25V4.75" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
@@ -196,7 +196,10 @@ onMounted(() => {
 							</svg>
 							Save Location
 						</button>
+					
 					</div>
+					</form>
+					</UseGeolocation>
 				</div>
 
 				<div class="p-3" v-else>

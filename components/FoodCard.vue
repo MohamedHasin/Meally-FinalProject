@@ -197,10 +197,7 @@ onBeforeMount(() => {
 			</div>
 		</div>
 
-		<strong class="logo" style="display: grid;
-  justify-content: center;">
-			<img src="/8.png" alt="logo">
-		</strong>
+
 		<div class="flex justify-end" v-if="donation.user_id === user.id">
 			<strong class="-mr-[2px] -mb-[2px] inline-flex items-center gap-1 rounded-tl-xl rounded-br-xl bg-primary py-1.5 px-3 text-white">
 				<svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -237,6 +234,9 @@ onBeforeMount(() => {
 				Mark as delivered
 			</button>
 		</div>
+			<strong class="logo" style="display: grid;justify-content: center;">
+				<img src="/meally-logo.png" alt="logo" style="width:60px;  height:40px; margin-bottom: 10px">
+			</strong>
 	</article>
 
 	<confirmation-modal :show="state.showBookingConfirmation" @close="dismissConfirmToBook">

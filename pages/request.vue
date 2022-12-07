@@ -90,7 +90,7 @@ onMounted(async () => {
 		<section class="bg-white rounded-t-lg -my-5 pb-32">
 			<div class="mt-3 mx-5 overflow-y-scroll space-y-3 pt-5">
 				<form class="space-y-5">
-					<Upload class="flex flex-col items-center justify-center" size="10" storage="foods" v-model:path="image_url" />
+					<Upload required class="flex flex-col items-center justify-center" size="10" storage="foods" v-model:path="image_url" />
 					<div>
 						<label class="block text-sm mb-2" for="name">Item Name</label>
 						<div class="relative">

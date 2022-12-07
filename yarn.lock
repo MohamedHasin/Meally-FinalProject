@@ -749,7 +749,7 @@
     lodash.template "^4.5.0"
     pathe "^0.3.5"
 
-"@nuxtjs/google-fonts@*":
+"@nuxtjs/google-fonts@^2.0.0":
   version "2.0.0"
   resolved "https://registry.npmjs.org/@nuxtjs/google-fonts/-/google-fonts-2.0.0.tgz"
   integrity sha512-ddcv0/+e5YKK2/ivE1v6I7aGXoNfcuGjNydbJz3q+zXkucftbQDBtph8AoYcqRbTIwUpCsr4aHov8P2HXyZSbg==

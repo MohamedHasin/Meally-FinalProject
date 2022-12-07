@@ -94,6 +94,7 @@ onMounted(() => {
 <template>
 
   <div>
+    
 		<div class="bg-primary px-5 py-16">
 			<NuxtLink to="/my-account">
 				<svg class="absolute top-0 right-0 text-white mr-3 mt-3 w-8 h-8 group-hover:scale-125 transform transition duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -105,6 +106,10 @@ onMounted(() => {
 				<NuxtLink class="group block w-full flex-shrink-0" to="/profile">
 					<div class="flex flex-col items-center space-y-3">
 						<div>
+              <div class="logo" style="align-content:center;">
+            <img src="/logo_b_4.png" alt="logo" style="margin-left:0px; margin-bottom:-20px; margin-top:-20px; height: 35px; width: 35px; border-collapse: collapse; z-index: 1; position:relative;">
+              </div>
+
 							<img :src="state?.profile?.avatar_url" alt class="inline-block h-24 w-24 border-2 rounded-full" />
 						</div>
 						<div class="ml-3 text-center">
@@ -123,12 +128,12 @@ onMounted(() => {
 
 			<div class="mt-8">
 				<h1 class="text-xl text-white font-light">Welcome Back, {{ user.user_metadata.name }}!</h1>
-				<p class="text-white text-left font-semibold text-xl">You've requested to deliver {{ state.donation_count }} meals worth of food last month.</p>
+				<p class="text-white text-left font-semibold text-xl">Your total donations is {{ state.donation_count }} meals. </p>
 			</div>
 
 			<div class="mt-2">
 				<span class="text-gray-500 font-normal text-xs">Advertisement</span>
-				<img class="rounded-lg" src="/ads/1.jpg" width="970" />
+				<img class="rounded-lg" src="/2.gif" width="970" />
 			</div>
 
 			<quote></quote>

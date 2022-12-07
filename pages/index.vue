@@ -14,7 +14,7 @@ const password = ref("");
 const isSignUp = ref(false);
 
 const signUp = async () => {
-	if(mobile.value.length !== 11){
+	if(mobile.value.length != 11){
 	notify({
       title: "Error",
       text: "Please type a valid mobile number.",
@@ -115,14 +115,14 @@ watchEffect(() => {
 						<div v-if="isSignUp">
 							<label class="block text-sm mb-2" for="name">Name</label>
 							<div class="relative">
-								<input class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" required type="text" v-model="name" />
+								<input class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" required type="text" v-model="name" placeholder="Full Name"/>
 							</div>
 						</div>
 
 						<div v-if="isSignUp">
 							<label class="block text-sm mb-2" for="mobile">Mobile</label>
 							<div class="relative">
-								<input class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" required type="text" v-model="mobile" />
+								<input class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" required type="text" v-model="mobile" placeholder="Type Your Malaysian Mobile Number"/>
 							</div>
 						</div>
 
@@ -130,7 +130,7 @@ watchEffect(() => {
 						<div>
 							<label class="block text-sm mb-2" for="email">Email address</label>
 							<div class="relative">
-								<input class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" required type="email" v-model="email" />
+								<input class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" required type="email" v-model="email" placeholder="Email Address"/>
 							</div>
 						</div>
 						<!-- End Form Group -->

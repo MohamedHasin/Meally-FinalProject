@@ -87,18 +87,15 @@ onBeforeMount(() => {
 	<div>
 		
 		<div class="bg-primary px-5 py-7">
-						<span class="logo" style="display: grid;justify-content: left;">
-			<img src="/meally.png" alt="logo">
+			<span class="logo" style="display: grid;justify-content: right;">
+			<img src="/logo_b_4.png" alt="logo" style="margin-left:405px; margin-bottom:0px; margin-top:-20px; height: 70px; width: 70px;">
 			</span>
 			<h2 class="text-white text-4xl font-semibold">Explore</h2>
-			<p class="text-white text-md">All the donations made by our users.</p>
-			<!-- <span class="logo" style="display: grid;justify-content: left;">
-			<img src="/meally.png" alt="logo">
-			</span> -->
-			
+			<p class="text-white text-md">All the donations made by our users.</p>	
+
 			<div class="mt-2">
 				<span class="text-gray-500 font-normal text-xs">Advertisement</span>
-				<img class="rounded-lg" src="/ads/2.gif" width="970" />
+				<img class="rounded-lg" src="/4.png" width="970" />
 			</div>
 		</div>
 

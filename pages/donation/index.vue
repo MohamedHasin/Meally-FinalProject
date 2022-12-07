@@ -25,11 +25,11 @@ function donate() {
 <template>
 	<div>
 		<div class="bg-primary px-5 py-7">
+			<span class="logo" style="display: grid;justify-content: right;">
+			<img src="/logo_b_4.png" alt="logo" style="margin-left:405px; margin-bottom:0px; margin-top:-20px; height: 70px; width: 70px;">
+			</span>
 			<h2 class="text-white text-4xl font-semibold">Donate Us</h2>
 			<p class="text-white text-md mt-2 break-words">Support this project by donating to us.</p>
-				<span class="logo" style="display: grid;justify-content: left;">
-			<img src="/meally.png" alt="logo">
-		</span>	
 			<div class="mt-5">
 				<span class="text-gray-500 font-normal text-xs">Advertisement</span>
 				<img class="rounded-lg" src="/ads/3.gif" width="970" />
