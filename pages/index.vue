@@ -14,7 +14,7 @@ const password = ref("");
 const isSignUp = ref(false);
 
 const signUp = async () => {
-	if(mobile.value.length != 11){
+	if(mobile.value.length <= 9 ||  mobile.value.length > 11){
 	notify({
       title: "Error",
       text: "Please type a valid mobile number.",
