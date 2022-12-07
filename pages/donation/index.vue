@@ -26,7 +26,7 @@ function donate() {
 	<div>
 		<div class="bg-primary px-5 py-7">
 			<h2 class="text-white text-4xl font-semibold">Donate Us</h2>
-			<p class="text-white text-md mt-2 break-words">To continue our effort with this project you can help us by donating to us.</p>
+			<p class="text-white text-md mt-2 break-words">Support this project by donating to us.</p>
 				<span class="logo" style="display: grid;justify-content: left;">
 			<img src="/meally.png" alt="logo">
 		</span>	

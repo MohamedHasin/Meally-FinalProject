@@ -199,7 +199,7 @@ onBeforeMount(() => {
 
 		<strong class="logo" style="display: grid;
   justify-content: center;">
-			<img src="/meally.png" alt="logo">
+			<img src="/8.png" alt="logo">
 		</strong>
 		<div class="flex justify-end" v-if="donation.user_id === user.id">
 			<strong class="-mr-[2px] -mb-[2px] inline-flex items-center gap-1 rounded-tl-xl rounded-br-xl bg-primary py-1.5 px-3 text-white">

@@ -85,12 +85,16 @@ onBeforeMount(() => {
 </script>
 <template>
 	<div>
+		
 		<div class="bg-primary px-5 py-7">
-			<h2 class="text-white text-4xl font-semibold">Explore</h2>
-			<p class="text-white text-md">All the donations made by our users.</p>
-			<span class="logo" style="display: grid;justify-content: left;">
+						<span class="logo" style="display: grid;justify-content: left;">
 			<img src="/meally.png" alt="logo">
 			</span>
+			<h2 class="text-white text-4xl font-semibold">Explore</h2>
+			<p class="text-white text-md">All the donations made by our users.</p>
+			<!-- <span class="logo" style="display: grid;justify-content: left;">
+			<img src="/meally.png" alt="logo">
+			</span> -->
 			
 			<div class="mt-2">
 				<span class="text-gray-500 font-normal text-xs">Advertisement</span>
