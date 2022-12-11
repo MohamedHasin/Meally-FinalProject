@@ -113,7 +113,7 @@ onMounted(() => {
 		
 		<div class="bg-primary px-5 py-7">
 			<span class="logo" style="display: grid;justify-content: right;">
-			<img src="/logo_b_4.png" alt="logo" style="margin-left:405px; margin-bottom:0px; margin-top:-20px; height: 70px; width: 70px;">
+			<img src="/header_logo.png" alt="logo" style="margin-left:405px; margin-bottom:0px; margin-top:-20px; height: 70px; width: 70px;">
 			</span>
 			<h2 class="text-white text-4xl font-semibold">My Account</h2>
 			<p class="text-white text-md mt-2 break-words">Top Contributors, Settings, Log Out.</p>

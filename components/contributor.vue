@@ -41,7 +41,7 @@ onMounted(() => {
 			</div>
 			<div>
 				<h4 class="text- font-semibold text-gray-700">{{ props.contributor.full_name ? props.contributor.full_name : 'No name.' }}</h4>
-				<p class="text-sm text-gray-600 font-medium">{{ props.contributor.orders.length }} orders</p>
+				<p class="text-sm text-gray-600 font-medium">{{ props.contributor.orders.length }} meals delivered successfully</p>
 			</div>
 		</div>
 		<div>

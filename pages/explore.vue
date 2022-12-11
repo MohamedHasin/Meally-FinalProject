@@ -88,14 +88,14 @@ onBeforeMount(() => {
 		
 		<div class="bg-primary px-5 py-7">
 			<span class="logo" style="display: grid;justify-content: right;">
-			<img src="/logo_b_4.png" alt="logo" style="margin-left:405px; margin-bottom:0px; margin-top:-20px; height: 70px; width: 70px;">
+			<img src="/header_logo.png" alt="logo" style="margin-left:405px; margin-bottom:0px; margin-top:-20px; height: 70px; width: 70px;">
 			</span>
 			<h2 class="text-white text-4xl font-semibold">Explore</h2>
 			<p class="text-white text-md">All the donations made by our users.</p>	
 
 			<div class="mt-2">
 				<span class="text-gray-500 font-normal text-xs">Advertisement</span>
-				<img class="rounded-lg" src="/4.png" width="970" />
+				<img class="rounded-lg" src="/ads/explore1.gif" width="970" />
 			</div>
 		</div>
 
@@ -108,7 +108,7 @@ onBeforeMount(() => {
 						<option>Cooked</option>
 						<option>Uncooked</option>
 						<option>Fruits & Vegetables</option>
-						<option value>Other Food Related Items</option>
+						<option>Other Food Related Items</option>
 					</select>
 				</div>
 
@@ -116,10 +116,10 @@ onBeforeMount(() => {
 					<label class="block text-sm font-medium text-gray-700">Cities</label>
 					<select @change="searchFilter($event.target.value)" class="mt-1 block w-full rounded-md border-gray-300 py-2 pl-3 pr-10 text-base focus:border-green-500 focus:outline-none focus:ring-green-500 sm:text-sm">
 						<option selected>Not Selected</option>
-						<option>Klang (KLG)</option>
+						<option>Klang (KG)</option>
 						<option>Kuala Lumpur (KL)</option>
 						<option>Petaling Jaya (PJ)</option>
-						<option>Puchong (PCG)</option>
+						<option>Puchong (PG)</option>
 						<option>Shah Alam (SA)</option>
 						<option>Subang Jaya (SJ)</option>
 					</select>
@@ -142,9 +142,9 @@ onBeforeMount(() => {
 								Cooked
 							</span>
 						</button>
-					</li>
+					</li> -->
 
-					<li>
+					<!-- <li>
 						<button @click="searchFilter('uncooked')" class="bg-gray-100 p-4 text-sm font-medium text-gray-500 ring-1 ring-inset ring-white">
 							<span class="flex items-center gap-2 text-sm" :class="{'text-primary': state.searchQuery === 'uncooked'}">
 								<svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -155,9 +155,35 @@ onBeforeMount(() => {
 								UnCooked
 							</span>
 						</button>
-					</li>
+					</li> -->
 
+					<!-- <li>
+						<button @click="searchFilter('fruits & vegetables')" class="bg-gray-100 p-4 text-sm font-medium text-gray-500 ring-1 ring-inset ring-white">
+							<span class="flex items-center gap-2 text-sm" :class="{'text-primary': state.searchQuery === 'fruits & vegetables'}">
+								<svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+									<path d="M9.75 7V6.75C9.75 5.64543 10.6454 4.75 11.75 4.75H12.25C13.3546 4.75 14.25 5.64543 14.25 6.75V7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+									<path d="M5.75 13V18C5.75 18.6904 6.30964 19.25 7 19.25H17C17.6904 19.25 18.25 18.6904 18.25 18V13C18.25 9.54822 15.4518 6.75 12 6.75C8.54822 6.75 5.75 9.54822 5.75 13Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+									<path d="M9.75 14.25H14.25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+								</svg>
+								Fruits & Vegetables
+							</span>
+						</button>
+					</li> -->
+<!-- 
 					<li>
+						<button @click="searchFilter('Available')" class="bg-gray-100 p-4 text-sm font-medium text-gray-500 ring-1 ring-inset ring-white">
+							<span class="flex items-center gap-2 text-sm" :class="{'text-primary': state.searchQuery === 'Available'}">
+								<svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+									<path d="M9.75 7V6.75C9.75 5.64543 10.6454 4.75 11.75 4.75H12.25C13.3546 4.75 14.25 5.64543 14.25 6.75V7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+									<path d="M5.75 13V18C5.75 18.6904 6.30964 19.25 7 19.25H17C17.6904 19.25 18.25 18.6904 18.25 18V13C18.25 9.54822 15.4518 6.75 12 6.75C8.54822 6.75 5.75 9.54822 5.75 13Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+									<path d="M9.75 14.25H14.25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+								</svg>
+								Available
+							</span>
+						</button>
+					</li> -->
+
+					<!-- <li>
 						<button @click="searchFilter('subang jaya')" class="bg-gray-100 p-4 text-sm font-medium text-gray-500 ring-1 ring-inset ring-white">
 							<span class="flex items-center gap-2 text-sm" :class="{'text-primary': state.searchQuery === 'subang jaya'}">
 								<svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -166,9 +192,9 @@ onBeforeMount(() => {
 								SJ
 							</span>
 						</button>
-					</li>
+					</li> -->
 
-					<li>
+					<!-- <li>
 						<button @click="searchFilter('kuala lumpur')" class="bg-gray-100 p-4 text-sm font-medium text-gray-500 ring-1 ring-inset ring-white">
 							<span class="flex items-center gap-2 text-sm" :class="{'text-primary': state.searchQuery === 'kuala lumpur'}">
 								<svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -179,13 +205,13 @@ onBeforeMount(() => {
 								KL
 							</span>
 						</button>
-					</li>
-				</ul> -->
+					</li> -->
+				<!-- </ul> -->
 
 				<div>
 					<label class="block text-sm mb-2" for="search">Search</label>
 					<div class="relative">
-						<input class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" placeholder="Search donations by (name, food type, address, state, city, no. of plates).." required type="text" v-model="state.searchQuery" />
+						<input class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" placeholder="Search donations by name, food type, address, city, no. of plates" required type="text" v-model="state.searchQuery" />
 					</div>
 				</div>
 

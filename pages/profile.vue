@@ -79,7 +79,7 @@ async function updateProfile() {
 					<label class="block text-sm mb-2" for="email">Email</label>
 					<div class="relative">
 						<input :value="user.email" class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" disabled placeholder="Your email" required type="text" />
-					 <p class="text-sm mt-2 text-gray-500">email is not editable.</p>
+					 <p class="text-sm mt-2 text-gray-500">Email is not editable.</p>
           </div>
 				</div>
 

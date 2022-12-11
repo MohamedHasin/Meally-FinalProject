@@ -107,7 +107,7 @@ onMounted(() => {
 					<div class="flex flex-col items-center space-y-3">
 						<div>
               <div class="logo" style="align-content:center;">
-            <img src="/logo_b_4.png" alt="logo" style="margin-left:0px; margin-bottom:-20px; margin-top:-20px; height: 35px; width: 35px; border-collapse: collapse; z-index: 1; position:relative;">
+            <img src="/header_logo.png" alt="logo" style="margin-left:0px; margin-bottom:-20px; margin-top:-20px; height: 35px; width: 35px; border-collapse: collapse; z-index: 1; position:relative;">
               </div>
 
 							<img :src="state?.profile?.avatar_url" alt class="inline-block h-24 w-24 border-2 rounded-full" />
@@ -133,7 +133,7 @@ onMounted(() => {
 
 			<div class="mt-2">
 				<span class="text-gray-500 font-normal text-xs">Advertisement</span>
-				<img class="rounded-lg" src="/2.gif" width="970" />
+				<img class="rounded-lg" src="/ads/home2.gif" width="970" />
 			</div>
 
 			<quote></quote>

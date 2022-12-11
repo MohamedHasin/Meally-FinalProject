@@ -164,7 +164,7 @@ onBeforeMount(() => {
 
 				<div class="space-y-2">
 					<p class="text-sm text-gray-700 line-clamp-2">
-						<span class="font-semibold">No Plate:</span>
+						<span class="font-semibold">No. of Plate:</span>
 						{{ donation.no_plates }}
 					</p>
 
@@ -235,7 +235,7 @@ onBeforeMount(() => {
 			</button>
 		</div>
 			<strong class="logo" style="display: grid;justify-content: center;">
-				<img src="/meally-logo.png" alt="logo" style="width:60px;  height:40px; margin-bottom: 10px">
+				<img src="/meally-logo.png" alt="logso" style="width:60px;  height:40px; margin-bottom: 10px">
 			</strong>
 	</article>
 

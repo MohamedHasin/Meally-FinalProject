@@ -139,7 +139,7 @@ watchEffect(() => {
 						<div>
 							<label class="block text-sm mb-2" for="password">Password</label>
 							<div class="relative">
-								<input class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" required type="password" v-model="password" />
+								<input class="border py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-primary focus:ring-primary" required type="password" v-model="password" placeholder="Password"/>
 							</div>
 						</div>
 						<!-- End Form Group -->
