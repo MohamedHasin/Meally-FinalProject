@@ -114,8 +114,8 @@ definePageMeta({
 											</svg>
 										</div>
 										<div class="ml-3 text-base text-gray-500">
-											<a href="tel:+9607832330">+60 1133778811</a>
-											<p class="mt-1">Mon-Fri 8am to 8pm</p>
+											<a href="tel:+9607832330" style="color:#26b578;">+60 1133778811</a>
+											<p class="mt-1" style="font-weight: 800;">Mon-Fri 8am to 8pm</p>
 										</div>
 									</div>
 									<div class="mt-6 flex">
@@ -126,7 +126,7 @@ definePageMeta({
 											</svg>
 										</div>
 										<div class="ml-3 text-base text-gray-500">
-											<a href = "mailto: dummyemail@gmail.com">enquiries@meally.com</a> 									
+											<a href = "mailto: dummyemail@gmail.com" style="color:#26b578;">enquiries@meally.com</a> 									
 										</div>
 									</div>
 								</div>
@@ -145,8 +145,8 @@ definePageMeta({
 											</svg>
 										</div>
 										<div class="ml-3 text-base text-gray-500">
-											<a href="tel:+9607832330">+60 1133778822</a>
-											<p class="mt-1">Mon-Fri 8am to 8pm</p>
+											<a href="tel:+9607832330" style="color:#26b578">+60 1133778822</a>
+											<p class="mt-1" style="font-weight: 800;">Mon-Fri 8am to 8pm</p>
 										</div>
 									</div>
 									<div class="mt-6 flex">
@@ -157,7 +157,7 @@ definePageMeta({
 											</svg>
 										</div>
 										<div class="ml-3 text-base text-gray-500">
-											<a href = "mailto: dummyemail@gmail.com">support@meally.com</a> 									
+											<a href = "mailto: dummyemail@gmail.com" style="color:#26b578;">support@meally.com</a> 									
 										</div>
 									</div>
 								</div>
