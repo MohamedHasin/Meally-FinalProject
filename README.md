@@ -1,4 +1,4 @@
-# Computing Project 
+# Computing Project (DIT)
 
 This was created as a part of my Computing Project (group Project) for Diploma in Information Technology. Uses technologies such as:
 
