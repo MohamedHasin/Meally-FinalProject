@@ -1,3 +1,23 @@
+# Computing Project 
+
+This was created as a part of my Computing Project (group Project) for Diploma in Information Technology. Uses technologies such as:
+
+• Vue
+
+• Nuxt
+
+• Capacitor
+
+• Tailwindcss
+
+• Supabase (Backend)
+
+• PostgreSQL (Database) 
+
+# About App
+
+Meally is a mobile app that users can use to donate food. Users can donate cooked, uncooked, fruits and vegetables along with other food related items through the app. Meally app can also be used to book donated food and to donate money to the Meally project. Packed with a simple yet beautiful user interface, it has got very useful features. The purpose of this app is to lessen the food wastage problem in Malaysia.
+
 # Nuxt 3 Minimal Starter
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
